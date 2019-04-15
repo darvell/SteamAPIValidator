@@ -1,5 +1,6 @@
-Every single game on Steam is cracked by just having a steam_api emulator that takes all the calls and gives the application the illusion they're connected.
-This is simple to bypass and should be obfuscated but the interesting part is this all runs as a replacement launcher for Unity so you can do your own cool looking thing referencing this code.
+Every single game on Steam is cracked by just having a steam_api emulator that takes all the calls and gives the application the illusion they're connected and own the product. This launcher verifies the validity of signature on the steam_api DLL to ensure it's the official Valve one.
+
+This is simple to bypass and should be obfuscated but the interesting part is this all runs as a replacement launcher for Unity so you can do your own cool looking thing referencing this code. Maybe just take the interop method for launching the unity game. 
 
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
