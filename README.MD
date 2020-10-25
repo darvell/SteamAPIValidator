@@ -2,6 +2,9 @@ Every single game on Steam is cracked by just having a steam_api emulator that t
 
 This is simple to bypass and should be obfuscated but the interesting part is this all runs as a replacement launcher for Unity so you can do your own cool looking thing referencing this code. Maybe just take the interop method for launching the unity game. 
 
+You should reference the Program.cs as it also performs a validation of the game assembly for mods and if so, disables achievements. Essentially, you want to clone this and take what you need. 
+
+
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
  
